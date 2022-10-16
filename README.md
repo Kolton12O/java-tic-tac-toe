@@ -1,4 +1,4 @@
-# tic-tac-toe in Java
+# Tic-Tac-Toe in Java
 &emsp;This is a simple Tic-Tac-Toe game that I have made using Java and the swing library. Tic-Tac-Toe is a game where two players compete on a three-by-three board. One player is assigned the "X" character and the other is the "O". These players must take turns and try to get three of their tiles in a line. The first player to do so will be crowned the victor.
 
 &emsp;There are many methods that I had to take into account when I was making this program. For instance, the only input the users will be sent to the program for this game will be whenever they click on a tile. For that reason, all the tiles had to be assigned an action listener whenever they were first declared using: *board[i][j].addActionListener(controller);*
